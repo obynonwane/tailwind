@@ -536,7 +536,8 @@ video {
 }
 
 .bg-secondary-100 {
-  background-color: #E2E2DS;
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 226 213 / var(--tw-bg-opacity));
 }
 
 .p-4 {
@@ -592,4 +593,9 @@ video {
 .text-primary {
   --tw-text-opacity: 1;
   color: rgb(255 99 99 / var(--tw-text-opacity));
+}
+
+.text-secondary-200 {
+  --tw-text-opacity: 1;
+  color: rgb(136 136 131 / var(--tw-text-opacity));
 }
